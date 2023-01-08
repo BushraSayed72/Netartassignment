@@ -1,0 +1,166 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+ 
+  
+}
+.navbar{
+  display: flex;
+  align-items: center;
+ justify-content: center;
+  padding:1rem;
+  background:rgb(246, 246, 192) ;
+}
+.navbar img{
+  width:50vw;
+}
+.main{
+  display: flex;
+  align-items: center;
+ gap:1.3rem;
+  padding:2rem 2rem 2rem 2rem;
+  background:rgb(246, 246, 192) ;
+ 
+}
+.award{
+  height:150vh;
+  width:110vw;
+}
+.main-content{
+  padding:1rem;
+  display: flex;
+  flex-direction: column;
+  gap:1rem;
+ 
+}
+.heading{
+  color:rgb(46, 22, 114);
+  font-style: italic;
+  font-size: 2rem;
+  font-weight: 800;
+}
+.main-content ul{
+  color:rgb(81, 25, 25);
+  font-size:1.5rem;
+  font-weight: 600;
+}
+.main-pic{
+ 
+  width: 50vw;
+}
+
+.para{
+  font-size: 1.5rem;
+  font-weight: 600;
+  color:rgb(81, 25, 25);
+  font-style: italic;
+}
+.main2{
+  padding: 2rem 2rem 3rem 2rem; 
+  background:rgb(246, 246, 192) ;
+}
+.main2 img{
+  width:90vw;
+  padding: 2rem 1rem 2rem 1rem;
+}
+.valves{
+  font-size: 1.5rem;
+  font-weight: 600;
+  color:rgb(81, 25, 25);
+  font-style: italic;
+  text-align: center;
+  padding-top: 1.7rem;
+
+}
+hr{
+  background-color:orange;
+  height: 4px;
+
+}
+.footer{
+  padding: 1rem;
+  gap:1rem;
+  background-color: rgb(246, 246, 192);
+}
+.headingg{
+  color:rgb(72, 42, 31);
+  font-style: italic;
+  font-size: 2rem;
+  font-weight: 800;
+  text-align: center;
+  padding: 2rem;
+
+}
+.last-content{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap:1.2rem;
+  padding: 2rem;
+
+}
+.footer-hr{
+  background-color: rgb(107, 69, 20);
+  
+  height: 1.5rem;
+  width: 3px;
+  
+}
+.same-para{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 800;
+  color: rgb(59, 26, 105);
+}
+.lst-footer{
+  background-color:darkorange;
+  padding: 2rem;
+  margin-top: 1rem;
+ 
+
+}
+.footer-flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:5rem;
+ 
+  color:brown;
+  height:20vh;
+ 
+}
+.footer-flex p{
+  display: flex;
+  align-items: center;
+  gap:8px;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.white{
+  color:white;
+}
+.blue{
+  color: rgb(10, 73, 125);
+}
+
+@media (max-width:768px){
+  .navbar{
+  width: 270vw;
+  }
+  .navbar img{
+    width: 150vw;
+  }
+  .main{
+    width:270vw;
+  }
+  .main2{
+    width:270vw;
+  }
+  .footer{
+    width:270vw;
+  }
+  hr{
+    width:270vw;
+  }
+}
